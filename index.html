@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portifolio</title>
+    <Link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fuggles&family=Gloock&family=Roboto+Condensed:wght@300&family=Roboto+Slab:wght@300&family=Roboto:ital,wght@1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <div class="contains-logo">
+                <a href="/"><img class="logo" src="./assets/foto.jpg" alt=""></a>
+                <p class="text-logo">Sócrates Guedes</p>
+            </div>
+            <button class="hamburger"></button>
+            <ul class="nav-list">
+                <li><a href="./#home">Home</a>
+                <li><a href="./#about">Sobre</a>
+                <li><a href="./#project">Projects</a>
+                <li><a href="./#contact">Contato</a>
+            </ul>
+        </nav>
+    
+    </header>
+
+    <section class="section-home" id="home">
+        <div class="home-container">
+            <div class="section-home-title">
+                <h1>Olá, Meu nome é Sócrates</h1>
+                <p class="paragrafo-text-home">
+                    Um desenvolvedor Web focado em Frontend, construindo o Frontend de sites e 
+                    aplicativos Web que leva ao sucesso do produto geral
+                </p>
+            </div>
+            <a href="./#project"><button class="btn">Project</button></a>
+            
+            <div class="container-icons">        
+                    <img class="icon icon-hover" src="./assets/linkedin.png" alt="" onclick="window.open('https://www.linkedin.com/in/s%C3%B3crates-g-bb200b257/', '_blank')">
+                    <img class="icon-github icon-hover" src="./assets/GitHub.png" alt="" onclick="window.open('https://github.com/SocratesGuedes',  '_blank')">
+            </div>
+            
+            <div class="container-info-pessoais">
+                <p>Whatsapp - (91) 98448-6946</p>
+                <p>Email - socratesmascarenhas5@gmail.com</p>
+            </div>
+
+            <div class="container-setas">
+                <svg class="arrows">
+                    <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                    <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                    <path class="a3" d="M0 40 L30 72 L60 40"></path>
+                  </svg>
+            </div>
+        </div>      
+    </section>          
+
+    <section class="section-about" id="about">
+        <div class="about-me">
+            <h1 class="h1-about-me">SOBRE MIM</h1>
+            <div class="dividir"></div>
+            <p class="paragrafo-text-about-me">
+                Aqui você encontrará mais informações sobre mim, 
+                o que faço e minhas habilidades atuais principalmente em termos de programação 
+                e tecnologia
+            </p>
+        </div>
+
+        
+
+            <div class="container-skills-toknow">
+                <div class="container-me-conhecer">
+                    <h2>Me conhecer!</h2>
+                    <p class="container-to-know-me">
+                        Quando eu trabalhava na marinha conheci a área de programação e me apaixonei.
+                        Então decidi mudar de profissão e me aventurar nesta área em busca de oportunidades.<br />
+                        Estou comprometido com a aprendizagem contínua e ansioso para contribuir com minha criatividade e
+                        habilidades técnicas para elevar projetos a um novo nível de excelência em Front-end. <br />
+                        Espero ser parte da sua equipe e ajudar a criar experiências digitais excepcionais.<br />
+                        Se tiver uma boa oportunidade que corresponda às minhas competências
+                        e experiência, não hesite em contactar-me.<br /><br />
+                        👤 Meu objetivo para os próximos anos: <strong>- Trabalhar com Backend e Frontend Web</strong>
+                    </p>
+                    <button class="btn btn-contato">Contato</button>
+                </div>
+                <div class="container-my-skills">
+                    <h2>Minhas Skills!</h2>
+                    <div class="skills">
+                        <div class="my-skill">HTML</div>
+                        <div class="my-skill">CSS</div>
+                        <div class="my-skill">JAVASCRIPT</div>
+                        <div class="my-skill">TYPESCRIPT</div>
+                        <div class="my-skill">REACT</div>
+                        <div class="my-skill">NODEJS</div>
+                        <div class="my-skill">GIT</div>
+                        <div class="my-skill">GITHUB</div>
+                        <div class="my-skill">MYSQL</div>
+                        <div class="my-skill">SQL</div>
+                        <div class="my-skill">SASS</div>
+                        <div class="my-skill">TAILAWIND</div>
+                    </div>
+            
+                </div>
+            </div>
+    </section>
+
+    <section class="section-project" id="project">
+        <div class="container-title-project">
+            <h1 class="h1-project">PROJETOS</h1>
+            <div class="dividir"></div>
+            <p class="text-project">
+                Aqui você encontrará alguns dos projetos pessoais que criei,
+                cada projeto contendo seu próprio estudo de caso</p>
+        </div>
+
+        <!-- Project-1 -->
+        <div class="contain-imagem-info-project">
+            <div class="contain-imagem-project">
+                <img class="imagem-project" src="./assets/clinica-saude-canva.png" alt="">
+        
+                <div class="contain-info-to-project-and-button">
+                    <h2>Project One - Chat Personalizado </h2>
+                    <p class="text-project">
+                        Desenvolvi um sistema de chat personalizado para uma Clínica Médica, empregando tecnologias como <strong>HTML, Javascript, e Firebase,
+                        aproveitando a funcionalidade do localStorage</strong> para o armazenamento local de dados.
+                        <p>PARA TESTAR:</p> abra uma aba anônima para logar como admin e outra aba normal para logar como cliente.
+                        <p>ADMIN: atendimento@gmail.com / SENHA: 159951</p>
+                    </p>
+        
+                    <div class="container-buttons">
+                        <a href="https://e-commerce-rose-rho.vercel.app/" target="_blank" >
+                            <button class="btn btn-project">
+                                Project
+                            </button>
+                        </a>
+                        <a href="https://github.com/SocratesGuedes/E-commerce" target="_blank" >
+                            <button class="btn btn-project">
+                                Code
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+        <!-- Project-2 -->
+        <div class="contain-imagem-info-project">
+            <div class="contain-imagem-project">
+                <img class="imagem-project" src="./assets/e-commerce-canva.png" alt="">
+        
+                <div class="contain-info-to-project-and-button">
+                    <h2>project two - E-commerce Moderno</h2>
+                    <p class="text-project">
+                        Desenvolvi a interface frontend de um E-commerce moderno e responsivo, utilizando <strong>HTML, CSS e JavaScript</strong>.
+                        Este projeto foi elaborado para aumentar minhas habilidades de <strong>responsividade.</strong>   
+                    </p>
+        
+                    <div class="container-buttons">
+                        <a href="https://e-commerce-rose-rho.vercel.app/" target="_blank" >
+                            <button class="btn btn-project">
+                                Project
+                            </button>
+                        </a>
+                        <a href="https://github.com/SocratesGuedes/E-commerce" target="_blank" >
+                            <button class="btn btn-project">
+                                Code
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+
+        <!-- Project-3 -->
+        <div class="contain-imagem-info-project">
+            <div class="contain-imagem-project">
+                <img class="imagem-project" src="./assets/foto-weather-app-canva.png" alt="">
+        
+                <div class="contain-info-to-project-and-button">
+                    <h2>Project Three - Clima</h2>
+                    <p class="text-project">
+                        Desenvolvi uma aplicação que fornece informações climáticas, empregando<strong> React Hooks, Tailwind CSS</strong> e realizando a <strong> integração com uma API externa</strong>    
+                    </p>
+        
+                    <div class="container-buttons">
+                        <a href="https://weather-app-five-ruby-41.vercel.app/" target="_blank" >
+                            <button class="btn btn-project">
+                                Project
+                            </button>
+                        </a>
+                        <a href="https://github.com/SocratesGuedes/Weather-App" target="_blank" >
+                            <button class="btn btn-project">
+                                Code
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project-4 -->
+        <div class="contain-imagem-info-project">
+            <div class="contain-imagem-project">
+                <img class="imagem-project" src="./assets/TaskList.png" alt="">
+        
+                <div class="contain-info-to-project-and-button">
+                    <h2>Project Four - TodoList</h2>
+                    <p class="text-project">
+                        Desenvolvimento de um aplicativo TodoList utilizando a combinação de <strong>Vita + React</strong>. com varias funcionalidades como: <strong>Pesquisar, Status e Ordem Alfabetica</strong>   
+                    </p>
+        
+                    <div class="container-buttons">
+                        <a href="https://todo-list-iota-green.vercel.app/" target="_blank" >
+                            <button class="btn btn-project">
+                                Project
+                            </button>
+                        </a>
+                        <a href="https://github.com/SocratesGuedes/TodoList" target="_blank" >
+                            <button class="btn btn-project">
+                                Code
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>  
+        
+
+        
+        
+        
+        
+        
+                
+        
+    </section>
+
+    <!-- Section Contato -->
+
+    <section class="section-contact" id="contact">
+        <div class="container-all-contact">
+            <div class="container-title-contact">
+                <h1 class="h1-contact">CONTATO</h1>
+                <div class="dividir"></div>
+                <p class="text-project">
+                    Sinta-se à vontade para entrar em contato comigo enviando o formulário abaixo 
+                    e entrarei em contato com você o mais breve possível
+                </p>
+            </div>
+    
+            <div class="container-form-contact" id="contact">
+                <form action="https://formspree.io/f/xdorpewb" method="POST">
+                    <label>
+                        Nome:
+                        <input type="text" name="name" placeholder="Seu Nome" required>
+                    </label>
+                    <label>
+                        email:
+                        <input type="name" name="email" placeholder="Seu Email" required>
+                    </label>
+                    <label>
+                        Número:
+                        <input type="number" name="number" placeholder="Seu Número" required>
+                    </label>
+                    <label>
+                        Menssagem:
+                        <textarea name="message" placeholder="Sua Mensagem" required></textarea>
+                    </label>
+                    
+                    <button class="btn btn-contact" type="submit">Enviar</button>
+                </form>
+    
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
