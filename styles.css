@@ -47,9 +47,10 @@ a {
 
 .logo:hover {
   transform: scale(1.5);
-  width: 90px;
-  height: 90px;
-  margin-top: 75px;
+  width: 195px;
+  height: 195px;
+  margin-top: 240px;
+  margin-left: 20px;
 }
 .text-logo{
   transition: 1s;
